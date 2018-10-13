@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delcar</servlet-name>
+    <servlet-class>servlet.delcar</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delfind</servlet-name>
+    <servlet-class>servlet.delfind</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login</servlet-name>
+    <servlet-class>servlet.login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegServlet</servlet-name>
+    <servlet-class>servlet.RegServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>admLogin</servlet-name>
+    <servlet-class>servlet.admLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Updateuser</servlet-name>
+    <servlet-class>servlet.Updateuser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Finduser</servlet-name>
+    <servlet-class>servlet.Finduser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>admlendfind</servlet-name>
+    <servlet-class>servlet.admlendfind</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lendcar</servlet-name>
+    <servlet-class>servlet.lendcar</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lendfind</servlet-name>
+    <servlet-class>servlet.lendfind</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lendresult</servlet-name>
+    <servlet-class>servlet.lendresult</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>returncar</servlet-name>
+    <servlet-class>servlet.returncar</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>returnfind</servlet-name>
+    <servlet-class>servlet.returnfind</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>personfind</servlet-name>
+    <servlet-class>servlet.personfind</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>delcar</servlet-name>
+    <url-pattern>/servlet/delcar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delfind</servlet-name>
+    <url-pattern>/servlet/delfind</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/servlet/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegServlet</servlet-name>
+    <url-pattern>/servlet/RegServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>admLogin</servlet-name>
+    <url-pattern>/servlet/admLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Updateuser</servlet-name>
+    <url-pattern>/servlet/Updateuser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Finduser</servlet-name>
+    <url-pattern>/servlet/Finduser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>admlendfind</servlet-name>
+    <url-pattern>/servlet/admlendfind</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lendcar</servlet-name>
+    <url-pattern>/servlet/lendcar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lendfind</servlet-name>
+    <url-pattern>/servlet/lendfind</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lendresult</servlet-name>
+    <url-pattern>/servlet/lendresult</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>returncar</servlet-name>
+    <url-pattern>/servlet/returncar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>returnfind</servlet-name>
+    <url-pattern>/servlet/returnfind</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>personfind</servlet-name>
+    <url-pattern>/servlet/personfind</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
